@@ -1,3 +1,4 @@
 import React from 'react';
+import App from '/components/App';
 
-React.render(<div>Private Equity Matching Game</div>, document.body);
+React.render(<App />, document.body);
