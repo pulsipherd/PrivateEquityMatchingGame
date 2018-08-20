@@ -1,13 +1,13 @@
 {
-  "name": "react-memory",
+  "name": "Private Equity Matching Game",
   "version": "0.1.0",
-  "description": "Memory game with react",
+  "description": "Matching game that uses the steps of the Private Equity Process to make a point about the best way to accomplish the process",
   "main": "src/server.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
     "serve": "./node_modules/.bin/webpack-dev-server --no-info --port 4000"
   },
-  "author": "Jonathan Lehman <jonathan.lehman91@gmail.com>",
+  "author": "Deneb Pulsipher, adapted from react memory game by Jonathan Lehman (https://github.com/jdlehman)",
   "license": "MIT",
   "dependencies": {
     "react": "^0.13.3"
