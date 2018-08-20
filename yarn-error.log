@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/pippin/.nvm/versions/node/v8.11.1/bin/node /Users/pippin/.nvm/versions/node/v8.11.1/bin/yarn install
+
+PATH: 
+  /Users/pippin/google-cloud-sdk/bin:/Users/pippin/.nvm/versions/node/v8.11.1/bin:/Users/pippin/arc/arcanist/bin:/Users/pippin/.rbenv/shims:/Applications/Postgres.app/Contents/Versions/10/bin:/Users/pippin/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/pippin/Coding/Projects/ValueValidations/MemoryMatching/package.json: Unexpected token } in JSON at position 556
+      at JSON.parse (<anonymous>)
+      at /Users/pippin/.nvm/versions/node/v8.11.1/lib/node_modules/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/Users/pippin/.nvm/versions/node/v8.11.1/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /Users/pippin/.nvm/versions/node/v8.11.1/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "Private Equity Matching Game",
+    "version": "0.1.0",
+    "description": "Matching game that uses the steps of the Private Equity Process to make a point about the best way to accomplish the process",
+    "main": "src/server.js",
+    "scripts": {
+      "build": "./node_modules/,bin/webpack",
+      "serve": "./node_modules/.bin/webpack-dev-server --no-info --port 4000"
+    },
+    "author": "Deneb Pulsipher, adapted from react memory game by Jonathan Lehman (https://github.com/jdlehman)",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^0.13.3",
+    },
+    "keywords": [
+      "react",
+      "matching",
+      "javascript"
+    ] ,
+    "devDependencies": {
+      "babel-core": "^5.8.22",
+      "babel-loader": "^5.3.2",
+      "react-hot-loader": "^1.2.8",
+      "webpack": "^1.11.0",
+      "webpack-dev-server": "^1.10.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
